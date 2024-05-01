@@ -15,7 +15,7 @@
     "@types/jest": "^27.5.2",
     "@types/node": "10.17.27",
     "@types/prettier": "2.6.0",
-    "aws-cdk": "2.39.1",
+    "aws-cdk": "2.139.1",
     "aws-sdk": "^2.1218.0",
     "aws-xray-sdk": "^3.3.7",
     "jest": "^27.5.1",
@@ -24,7 +24,7 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.39.1",
+    "aws-cdk-lib": "2.139.1",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
   }

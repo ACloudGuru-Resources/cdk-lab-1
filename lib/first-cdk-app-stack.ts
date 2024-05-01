@@ -20,6 +20,7 @@ export class FirstCdkAppStack extends Stack {
 
     //define lambda function and regeference function file
     const lambda_backend = new NodejsFunction(this, "function", {
+      runtime: lambda.Runtime.NODEJS_20_X,
       tracing: lambda.Tracing.ACTIVE,
       environment: {
         DYNAMODB: dynamodb_table.tableName
